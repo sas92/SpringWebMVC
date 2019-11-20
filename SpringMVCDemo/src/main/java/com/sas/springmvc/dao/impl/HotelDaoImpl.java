@@ -18,7 +18,7 @@ public class HotelDaoImpl implements HotelDao {
 	@Override
 	public Hotel addHotel(Hotel hotel) {
 		this.sessionFactory.getCurrentSession().save(hotel);
-		return null;
+		return hotel;
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import com.sas.springmvc.model.Hotel;
 import com.sas.springmvc.service.HotelManageService;
 
 @RestController
-@RequestMapping("/hotel")
+@RequestMapping("/hotels")
 public class HotelManageController {
 	@Autowired
 	HotelManageService hotelManageService;
